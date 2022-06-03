@@ -9,7 +9,7 @@
 				{
 					"name": "includeElementBox",
 					"type": "Button",
-					"iconPath": "theme/icons/includeElement.svg"
+					"iconPath": "theme/icons/includeBox.svg"
 				}
 			]
 		}

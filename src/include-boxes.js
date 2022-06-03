@@ -3,7 +3,7 @@ import {toWidget} from '@ckeditor/ckeditor5-widget/src/utils';
 import Widget from '@ckeditor/ckeditor5-widget/src/widget';
 import Command from '@ckeditor/ckeditor5-core/src/command';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
-import includeElementIcon from '../theme/icons/includeElement.svg';
+import includeBoxIcon from '../theme/icons/includeBox.svg';
 import '../theme/includeElement.css';
 
 export default class IncludeBox extends Plugin {
@@ -23,7 +23,7 @@ class IncludeBoxUI extends Plugin {
 
 			buttonView.set( {
 				label: t( 'Include element' ),
-				icon: includeElementIcon,
+				icon: includeBoxIcon,
 				tooltip: true
 			} );
 
