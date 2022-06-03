@@ -4,7 +4,9 @@ Adds the option to add include-boxes to ckeditor5.
 They can be used to embed custom (not-editable) content in the editor.
 
 They can be inserted using a dedicated toolbar button.
+
 ## Screenshots
+![image](https://user-images.githubusercontent.com/20766652/171927715-f82b4c51-39b8-4ea7-9e63-95a71150c574.png)
 
 
 # Plugin Development Content
