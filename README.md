@@ -1,4 +1,4 @@
-# ckeditor5-include-element 
+# ckeditor5-include-box 
 
 Adds the option to add include-boxes to ckeditor5.
 They can be used to embed custom (not-editable) content in the editor.
@@ -12,7 +12,7 @@ This package was created by the [ckeditor5-package-generator](https://www.npmjs.
 
 ## Table of contents
 
-- [ckeditor5-include-element](#ckeditor5-include-element)
+- [ckeditor5-include-box](#ckeditor5-include-box)
   - [Screenshots](#screenshots)
 - [Plugin Development Content](#plugin-development-content)
   - [Table of contents](#table-of-contents)
