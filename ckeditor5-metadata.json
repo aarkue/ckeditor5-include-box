@@ -1,0 +1,17 @@
+{
+	"plugins": [
+		{
+			"name": "Include Box",
+			"className": "include-box",
+			"description": "Adds the ability to embed/include element boxes to the editor.",
+			"path": "src/include-boxes.js",
+			"uiComponents": [
+				{
+					"name": "includeElementBox",
+					"type": "Button",
+					"iconPath": "theme/icons/includeElement.svg"
+				}
+			]
+		}
+	]
+}
