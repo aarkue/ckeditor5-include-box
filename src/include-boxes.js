@@ -121,7 +121,11 @@ class IncludeBoxEditing extends Plugin {
 
 class InsertIncludeElementCommand extends Command {
 	async execute() {
-		const {id, size = 'full'} = await this.editor.config.get('includeElement.renderer').presentSelector()
+		const res = await this.editor.config.get('includeElement.renderer').presentSelector()
+		if(!res){
+			return;
+		}
+		const {id, size = 'full'} = res;
         this.editor.model.change( writer => {
             let elementid = id;
             this.editor.model.insertContent(writer.createElement('includeElementBox', {

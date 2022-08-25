@@ -106,8 +106,11 @@ ClassicEditor
 				}
 			},
 			presentSelector: async () => {
-
-				return {id: prompt("Enter your id"), size: 'full'}
+				const id = prompt("Enter your id");
+				if(!id){
+					return null;
+				}
+				return {id, size: 'full'}
 			}
 		},
 		initialHTML:  '<span>Loading element...</span>'
