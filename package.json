@@ -1,6 +1,6 @@
 {
   "name": "@aarkue/ckeditor5-include-box",
-  "version": "35.0.0",
+  "version": "35.0.1",
   "description": "Embed/Include boxes for ckeditor5.",
   "keywords": [
     "ckeditor",
