@@ -54,7 +54,7 @@ class IncludeBoxEditing extends Plugin {
 		schema.register( 'includeElementBox', {
 			isObject: true,
 			allowAttributes: [ 'elementid', 'size' ],
-			allowWhere: '$block'
+			allowWhere: ['$root','$block','$text']
 		} );
 	}
 
