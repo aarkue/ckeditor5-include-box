@@ -10,8 +10,9 @@ export default class IncludeBoxesAutoformat extends Plugin {
 
     afterInit(){
         if(this.editor.commands.get('insertIncludeElementBox')){
-            blockAutoformatEditing(this.editor,this,/^\!\[\[$/, 'insertIncludeElementBox')
+            // blockAutoformatEditing(this.editor,this,/^\!\[\[$/, 'insertIncludeElementBox')
             inlineAutoformatEditing(this.editor,this,/(?:^|\s)(\!\[)(\[*)(\[)$/g, ( writer, rangesToFormat ) => {
+            console.log({rangesToFormat,writer})
             this.editor.execute('insertIncludeElementBox');
         })
             
